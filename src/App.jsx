@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ResponsiveContainer, ComposedChart, BarChart, Bar, Line, LineChart, XAxis, YAxis, Tooltip, CartesianGrid, Cell, ReferenceLine } from "recharts";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://cricbackend-sooty.vercel.app";
 const cache = new Map();
 async function call(path, body) {
   if (!body && cache.has(path)) return cache.get(path);
