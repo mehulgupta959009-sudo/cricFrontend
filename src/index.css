@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;background:#0b0f19;color:#f3f4f6;font:14px Inter,system-ui,sans-serif}
+nav{display:flex;gap:8px;align-items:center;padding:12px 20px;background:#111827;border-bottom:1px solid #1f2937;flex-wrap:wrap}
+nav b{color:#10b981;font-size:18px;margin-right:16px}button{background:#1f2937;color:#f3f4f6;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+button.on,button.go{background:#10b981;color:#04130d;font-weight:600}button:disabled{opacity:.4;cursor:not-allowed}
+.dot{margin-left:auto;width:10px;height:10px;border-radius:50%;background:#6b7280}.dot.ok{background:#10b981}.dot.bad{background:#ef4444}
+main{max-width:1100px;margin:0 auto;padding:20px;display:grid;gap:16px}
+.card{background:#111827;border:1px solid #1f2937;border-radius:16px;padding:16px}.card h3{margin:0 0 12px;font-size:14px;color:#9ca3af}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.kpi small{color:#9ca3af;display:block}.kpi strong{font-size:26px}
+.f{display:grid;gap:4px;color:#9ca3af}select{background:#0b0f19;color:#f3f4f6;border:1px solid #1f2937;border-radius:8px;padding:9px}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:end}
+.err{background:#3b1216;border:1px solid #ef4444;border-radius:10px;padding:10px;display:flex;justify-content:space-between;gap:8px}
+.sk{height:240px;border-radius:12px;background:#1f2937;animation:p 1.2s infinite}@keyframes p{50%{opacity:.4}}
+table{width:100%;border-collapse:collapse}td,th{padding:6px 8px;text-align:left;border-bottom:1px solid #1f2937}th{color:#9ca3af;font-weight:500}
+.big{font-size:56px;font-weight:700;color:#10b981;line-height:1}.badge{padding:3px 10px;border-radius:99px;font-size:12px;margin-left:8px}
+.conf-low{background:#f59e0b33;color:#f59e0b}.conf-medium{background:#3b82f633;color:#60a5fa}.conf-high{background:#10b98133;color:#10b981}
+.chip{display:inline-block;background:#1f2937;border-radius:99px;padding:4px 10px;margin:3px}
+.track{position:relative;height:12px;background:#1f2937;border-radius:99px;margin:18px 0 6px}.fill{position:absolute;height:100%;background:#10b98166;border-radius:99px}
+.mark{position:absolute;top:-4px;width:4px;height:20px;background:#f59e0b;border-radius:2px}.row{display:flex;justify-content:space-between;color:#9ca3af}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
